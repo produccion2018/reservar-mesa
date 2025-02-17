@@ -13,7 +13,7 @@ body {
 
 .banner{
     min-height:100vh;
-    background:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url("fondo.jpeg") center/cover no-repeat;
+    background:linear-gradient(#000000, #00000080),url("fondo.jpeg") center/cover no-repeat;
     display: flex;
     flex-direction:column;
     justify-content:center;
@@ -81,7 +81,7 @@ color: #5f5e5e;
 
 form input[type = submit] {
     color: #fff;
-    background: rgb(209, 7, 175);
+    background: #d107af;
     padding: 12px 0;
     border-radius: 4px;
     cursor:pointer;
@@ -120,11 +120,7 @@ form input[type = submit]:hover{
 
     }
 
-
- 
-    
-    
-    }
+ }
 
 
     #administraReservas {
